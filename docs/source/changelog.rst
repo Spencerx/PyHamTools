@@ -1,6 +1,18 @@
 Changelog
 ---------
 
+PyHamtools 0.12.0
+================
+
+09. June 2025
+
+* deprecated support for Python 3.6
+* deprecated support for Python 3.7
+* added support for higher Microwave bands (tnx @sq6emm)
+* added support for 10 characters Maidenhead locators (tnx @sq6emm)
+* updated CI pipeline
+
+
 PyHamtools 0.11.0
 ================
 
