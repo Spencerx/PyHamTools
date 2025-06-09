@@ -182,7 +182,7 @@ def freq_to_band(freq):
     elif ((freq >= 1200000) and (freq <= 1300000)):
         band = 0.23  #23cm
         mode = None
-    elif ((freq >= 2390000) and (freq <= 2450000)):
+    elif ((freq >= 2300000) and (freq <= 2450000)):
         band = 0.13  #13cm
         mode = None
     elif ((freq >= 3300000) and (freq <= 3500000)):
@@ -199,6 +199,18 @@ def freq_to_band(freq):
         mode = None
     elif ((freq >= 47000000) and (freq <= 47200000)):
         band = 0.0063  #6,3mm
+        mode = None
+    elif ((freq >= 75500000) and (freq <= 81500000)):
+        band = 0.004  #4mm
+        mode = None
+    elif ((freq >= 122250000) and (freq <= 123000000)):
+        band = 0.0025  #2.5mm
+        mode = None
+    elif ((freq >= 134000000) and (freq <= 141000000)):
+        band = 0.002  #2mm
+        mode = None
+    elif ((freq >= 241000000) and (freq <= 250000000)):
+        band = 0.001  #1mm
         mode = None
     else:
         raise KeyError
