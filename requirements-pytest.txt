@@ -1,10 +1,9 @@
-pytest>=7.0.0; python_version>='3.7'
-pytest==4.6.11; python_version=='3.6'
+pytest>=7.0.0
 pytest-blockage>=0.2.2
 pytest-localserver>=0.5
 pytest-cov>=2.12
 maidenhead==1.6.0
-requests==2.32.2
-bs4==4.13.3
+requests>=2.32.4
+beautifulsoup4==4.13.4
 redis==5.2.1
 ephem==4.2
